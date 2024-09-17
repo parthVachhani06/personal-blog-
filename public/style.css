@@ -1,0 +1,27 @@
+img{
+    height: auto;
+}
+
+.indexshow{
+    background-image: url("https://cms.payloadcms.com/media/interface-blog.jpg");
+    background-size: cover;
+}
+
+.viewshow{
+    background-image: url("https://cms.payloadcms.com/media/interface-blog.jpg");
+    background-size: cover;
+    
+}
+
+.editshow{
+    background-image: url("https://cms.payloadcms.com/media/interface-blog.jpg");
+    background-size: cover;
+    background-color: black;
+
+}
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    
+}

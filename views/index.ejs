@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>personal Blog App</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="indexshow">
+  
+  <div class="container">
+    <div class="row ">
+      <div class="col-6"></div>
+      <header class="p-3 text-danger">
+        
+      </header>
+      <div class="col-6 mt-5 border border-2 border-light p-5">
+        <form action="/blogform" method="post">
+          <div class="form-group">
+            <label for="blogtitle" class="text-light ">Blog Title:</label>
+            <input type="text" class="form-control bg-info-subtle" name="title" placeholder="Enter Blog Title">
+          </div>
+          <div class="form-group">
+            <label for="content" class="text-light ">Content:</label>
+            <textarea class="form-control bg-info-subtle" name="content" rows="3"
+              placeholder="Enter Blog Content"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+          <div class="row d-flex"></div></br>
+            <button class="btn btn-warning">
+              <a href="/views" class="text-dark ">All Blogs </a>
+            </button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
